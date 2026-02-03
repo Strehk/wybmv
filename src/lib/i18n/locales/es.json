@@ -1,0 +1,34 @@
+{
+	"intro": {
+		"slide1": "Hola {{name}}",
+		"slide2": "¿Alguna vez te dije que eres mi persona favorita en el mundo?",
+		"slide3": "Cada momento contigo se siente mágico",
+		"slide4": "Tengo algo importante que preguntarte...",
+		"tapToContinue": "Toca para continuar"
+	},
+	"question": {
+		"title": "¿Quieres ser mi San Valentín?",
+		"yes": "¡Sí!",
+		"no": "No"
+	},
+	"success": {
+		"aww": "¡Aww!",
+		"iLoveYou": "Te quiero",
+		"hearts": "¡Me haces tan feliz!"
+	},
+	"config": {
+		"title": "Generador de enlaces WYBMV",
+		"nameLabel": "Nombre",
+		"namePlaceholder": "Escribe su nombre...",
+		"languageLabel": "Idioma",
+		"linkLabel": "Tu enlace personalizado:",
+		"copyLink": "Copiar enlace",
+		"copied": "¡Copiado!",
+		"preview": "Vista previa"
+	},
+	"footer": {
+		"madeWith": "Hecho con",
+		"github": "GitHub: Strehk"
+	},
+	"defaultName": "tú"
+}

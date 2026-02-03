@@ -19,7 +19,7 @@
   });
 
   $effect(() => {
-    if ($params.lang && ["en", "de", "pl"].includes($params.lang)) {
+    if ($params.lang && ["en", "de", "pl", "es", "it", "fr"].includes($params.lang)) {
       i18next.changeLanguage($params.lang);
     }
   });

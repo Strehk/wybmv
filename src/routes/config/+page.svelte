@@ -11,6 +11,9 @@
 	const languages = [
 		{ code: 'en', label: 'English' },
 		{ code: 'de', label: 'Deutsch' },
+		{ code: 'es', label: 'Español' },
+		{ code: 'fr', label: 'Français' },
+		{ code: 'it', label: 'Italiano' },
 		{ code: 'pl', label: 'Polski' }
 	];
 

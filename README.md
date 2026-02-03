@@ -12,7 +12,7 @@ Use the **[Link Generator](https://strehk.github.io/wybmv/config)** to create a 
 - **Runaway "No" Button** - The "No" button escapes when hovered, because rejection is not an option!
 - **Floating Hearts** - Celebratory heart animations on the success screen
 - **Personalized Experience** - Add their name via URL parameter (`?name=Julia`)
-- **Multi-language Support** - Available in English, German, and Polish (`?lang=en|de|pl`)
+- **Multi-language Support** - Available in English, German, Spanish, French, Italian, and Polish
 - **Dark Mode** - Automatically adapts to system preference
 - **Mobile Friendly** - Responsive design that works on all devices
 - **Link Generator** - Easy-to-use config page to create shareable links
@@ -31,7 +31,7 @@ Use the **[Link Generator](https://strehk.github.io/wybmv/config)** to create a 
 | Parameter | Description | Example |
 |-----------|-------------|---------|
 | `name` | Their name (optional) | `?name=Julia` |
-| `lang` | Language: `en`, `de`, or `pl` (default: `en`) | `?lang=de` |
+| `lang` | Language: `en`, `de`, `es`, `fr`, `it`, `pl` (default: `en`) | `?lang=de` |
 
 **Example:** `https://strehk.github.io/wybmv/?name=Julia&lang=en`
 

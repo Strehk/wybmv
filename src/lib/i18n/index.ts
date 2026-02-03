@@ -3,6 +3,9 @@ import { createI18nStore } from 'svelte-i18next';
 import en from './locales/en.json';
 import de from './locales/de.json';
 import pl from './locales/pl.json';
+import es from './locales/es.json';
+import it from './locales/it.json';
+import fr from './locales/fr.json';
 
 i18next.init({
 	lng: 'en',
@@ -10,7 +13,10 @@ i18next.init({
 	resources: {
 		en: { translation: en },
 		de: { translation: de },
-		pl: { translation: pl }
+		pl: { translation: pl },
+		es: { translation: es },
+		it: { translation: it },
+		fr: { translation: fr }
 	},
 	interpolation: {
 		escapeValue: false

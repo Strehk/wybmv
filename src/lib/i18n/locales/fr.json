@@ -1,0 +1,34 @@
+{
+	"intro": {
+		"slide1": "Salut {{name}}",
+		"slide2": "Est-ce que je t'ai déjà dit que tu es ma personne préférée au monde ?",
+		"slide3": "Chaque moment avec toi est magique",
+		"slide4": "J'ai quelque chose d'important à te demander...",
+		"tapToContinue": "Appuie pour continuer"
+	},
+	"question": {
+		"title": "Veux-tu être mon Valentin ?",
+		"yes": "Oui !",
+		"no": "Non"
+	},
+	"success": {
+		"aww": "Aww !",
+		"iLoveYou": "Je t'aime",
+		"hearts": "Tu me rends si heureux !"
+	},
+	"config": {
+		"title": "Générateur de liens WYBMV",
+		"nameLabel": "Prénom",
+		"namePlaceholder": "Entre son prénom...",
+		"languageLabel": "Langue",
+		"linkLabel": "Ton lien personnalisé :",
+		"copyLink": "Copier le lien",
+		"copied": "Copié !",
+		"preview": "Aperçu"
+	},
+	"footer": {
+		"madeWith": "Fait avec",
+		"github": "GitHub: Strehk"
+	},
+	"defaultName": "toi"
+}
