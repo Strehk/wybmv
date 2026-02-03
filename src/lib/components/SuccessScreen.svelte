@@ -1,5 +1,6 @@
 <script lang="ts">
   import { i18n } from "$lib/i18n";
+  import { base } from "$app/paths";
   import FloatingHearts from "./FloatingHearts.svelte";
 </script>
 
@@ -24,4 +25,12 @@
   >
     {$i18n.t("success.hearts")}
   </p>
+
+  <a
+    href="{base}/config"
+    class="mt-12 text-sm opacity-60 hover:opacity-100 underline transition-opacity animate-slide-up"
+    style="animation-delay: 0.6s;"
+  >
+    💕 {$i18n.t("footer.createYourOwn")}
+  </a>
 </div>

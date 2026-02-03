@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { i18n } from '$lib/i18n';
+	import { base } from '$app/paths';
 
 	let { children } = $props();
 
@@ -33,7 +34,7 @@
 
 	<footer class="py-4 text-center text-xs opacity-50 bg-valentine-light-bg dark:bg-valentine-dark-bg text-valentine-light-text dark:text-valentine-dark-text">
 		<p>
-			{$i18n.t('footer.madeWith')} ❤️ | © 2025 | <a href="https://github.com/Strehk" class="hover:underline" target="_blank" rel="noopener noreferrer">{$i18n.t('footer.github')}</a>
+			<a href="{base}/config" class="hover:underline">{$i18n.t('footer.createYourOwn')}</a> | {$i18n.t('footer.madeWith')} ❤️ | © 2025 | <a href="https://github.com/Strehk" class="hover:underline" target="_blank" rel="noopener noreferrer">{$i18n.t('footer.github')}</a>
 		</p>
 	</footer>
 </div>

@@ -28,7 +28,8 @@
 	},
 	"footer": {
 		"madeWith": "Fatto con",
-		"github": "GitHub: Strehk"
+		"github": "GitHub: Strehk",
+		"createYourOwn": "Crea il tuo"
 	},
 	"defaultName": "tu"
 }
